@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Invoice document -->
+  <g>
+    <!-- Paper with rounded corners -->
+    <rect x="50" y="30" width="100" height="130" rx="8" fill="#7BA5A3" stroke="#5A8886" stroke-width="3"/>
+    
+    <!-- Invoice lines -->
+    <line x1="65" y1="55" x2="105" y2="55" stroke="#D4E8E7" stroke-width="3" stroke-linecap="round"/>
+    <line x1="65" y1="70" x2="135" y2="70" stroke="#D4E8E7" stroke-width="3" stroke-linecap="round"/>
+    <line x1="65" y1="85" x2="125" y2="85" stroke="#D4E8E7" stroke-width="3" stroke-linecap="round"/>
+    <line x1="65" y1="100" x2="135" y2="100" stroke="#D4E8E7" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Total line (thicker to emphasize) -->
+    <line x1="65" y1="125" x2="135" y2="125" stroke="#3D5E5C" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Dollar sign for total -->
+    <text x="70" y="143" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3D5E5C">$</text>
+    <text x="85" y="143" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3D5E5C">___</text>
+  </g>
+  
+  <!-- Pen (cartoon style) -->
+  <g>
+    <!-- Pen body -->
+    <rect x="120" y="130" width="60" height="12" rx="6" fill="#5A8886" transform="rotate(-45 150 136)"/>
+    
+    <!-- Pen tip -->
+    <path d="M 105 155 L 115 145 L 118 148 L 108 158 Z" fill="#3D5E5C"/>
+    
+    <!-- Pen clip -->
+    <ellipse cx="157" cy="122" rx="3" ry="8" fill="#7BA5A3" transform="rotate(-45 157 122)"/>
+    
+    <!-- Pen highlight -->
+    <rect x="130" y="128" width="25" height="4" rx="2" fill="#95BEB9" transform="rotate(-45 142.5 130)" opacity="0.6"/>
+  </g>
+  
+  <!-- Decorative checkmark (invoice approved) -->
+  <circle cx="140" cy="50" r="18" fill="#95BEB9" opacity="0.9"/>
+  <path d="M 132 50 L 137 55 L 148 44" stroke="#3D5E5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
