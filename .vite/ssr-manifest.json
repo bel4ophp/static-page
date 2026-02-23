@@ -5,10 +5,11 @@
   "\u0000plugin-vue:export-helper": [],
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
-  "About-D3WQnQX3.js": [],
-  "Home-Cwvhnunf.js": [],
-  "NotFound-BwXtaPq4.js": [],
-  "Register-DEg522dy.js": [],
+  "About-mGR7sQLH.js": [],
+  "Home-CAY7q7L6.js": [],
+  "Login-BwjnncxQ.js": [],
+  "NotFound-C3aLDbNh.js": [],
+  "Register-y8vuiV_D.js": [],
   "index.html": [],
   "node_modules/@lottiefiles/dotlottie-vue/dist/dotlottie.js": [],
   "node_modules/@lottiefiles/dotlottie-web/dist/index.js": [],
@@ -38,28 +39,31 @@
   "src/App.vue": [],
   "src/assets/logo.webp": [],
   "src/components/GetStarted.vue": [
-    "/assets/Home-Cwvhnunf.js"
+    "/assets/Home-CAY7q7L6.js"
   ],
   "src/components/Hero.vue": [
-    "/assets/Home-Cwvhnunf.js"
+    "/assets/Home-CAY7q7L6.js"
   ],
   "src/components/layout/AuthNavbar.vue": [],
   "src/components/layout/Footer.vue": [],
   "src/components/layout/Navbar.vue": [],
   "src/layouts/MainLayout.vue": [],
-  "src/layouts/MainLayout.vue?vue&type=style&index=0&scoped=6dd93691&lang.css": [],
+  "src/layouts/MainLayout.vue?vue&type=style&index=0&scoped=a57300ad&lang.css": [],
   "src/main.js": [],
   "src/pages/About.vue": [
-    "/assets/About-D3WQnQX3.js"
+    "/assets/About-mGR7sQLH.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-Cwvhnunf.js"
+    "/assets/Home-CAY7q7L6.js"
+  ],
+  "src/pages/Login.vue": [
+    "/assets/Login-BwjnncxQ.js"
   ],
   "src/pages/NotFound.vue": [
-    "/assets/NotFound-BwXtaPq4.js"
+    "/assets/NotFound-C3aLDbNh.js"
   ],
   "src/pages/Register.vue": [
-    "/assets/Register-DEg522dy.js"
+    "/assets/Register-y8vuiV_D.js"
   ],
   "src/router/index.js": [],
   "src/style.css": []
